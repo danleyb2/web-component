@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     container: danleyb2/web-component-tester:latest
     steps:
       - uses: actions/checkout@v2
