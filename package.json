@@ -6,7 +6,6 @@
     "url": "https://github.com/danleyb2/web-component.git"
   },
   "version": "0.0.1",
-  "private": true,
   "main": "web-component.js",
   "scripts": {
     "start": "polymer serve",
