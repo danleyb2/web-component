@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    container: danleyb2/web-component-tester:latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@your-github-username'
+          scope: '@danleyb2'
       - run: npm ci
       - run: npm publish
         env:

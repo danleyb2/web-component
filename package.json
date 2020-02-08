@@ -1,6 +1,6 @@
 {
   "name": "@danleyb2/web-component",
-  "description":"",
+  "description": "",
   "repository": {
     "type": "git",
     "url": "https://github.com/danleyb2/web-component.git"
@@ -9,11 +9,16 @@
   "private": true,
   "main": "web-component.js",
   "scripts": {
-    "start": "polymer serve"
+    "start": "polymer serve",
+    "test": "/polymer test --npm"
   },
   "dependencies": {
     "lit-element": "2.2.1",
-    "@webcomponents/webcomponentsjs": "2.4.0",
-    "polymer-cli": "latest"
+    "@webcomponents/webcomponentsjs": "2.4.0"
+  },
+  "devDependencies": {
+    "wct-browser-legacy": "^1.0.1",
+    "polymer-cli": "latest",
+    "@polymer/test-fixture": "^4.0.1"
   }
 }
