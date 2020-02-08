@@ -1,0 +1,19 @@
+{
+  "name": "@danleyb2/web-component",
+  "description":"",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danleyb2/web-component.git"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "main": "web-component.js",
+  "scripts": {
+    "start": "polymer serve"
+  },
+  "dependencies": {
+    "lit-element": "2.2.1",
+    "@webcomponents/webcomponentsjs": "2.4.0",
+    "polymer-cli": "latest"
+  }
+}
