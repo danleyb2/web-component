@@ -10,7 +10,7 @@
   "main": "web-component.js",
   "scripts": {
     "start": "polymer serve",
-    "test": "/polymer test --npm"
+    "test": "polymer test --npm"
   },
   "dependencies": {
     "lit-element": "2.2.1",
