@@ -5,11 +5,12 @@
     "type": "git",
     "url": "https://github.com/danleyb2/web-component.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/es6-unbundled/index.js",
   "scripts": {
     "start": "polymer serve",
-    "test": "polymer test --npm"
+    "test": "polymer test --npm",
+    "build": "gulp build"
   },
   "dependencies": {
     "@webcomponents/webcomponentsjs": "2.4.0",
