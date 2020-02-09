@@ -24,7 +24,7 @@ class WebComponent extends LitElement {
 
   render() {
     return html`
-        <div id="content">${this.name}</div>
+        Hello <span id="content">${this.name}</span>!
 `;
   }
 
