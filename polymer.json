@@ -1,6 +1,6 @@
 {
   "entrypoint": "index.html",
-  "shell": "web-component.js",
+  "shell": "index.js",
   "sources": [
   ],
   "fragments": [

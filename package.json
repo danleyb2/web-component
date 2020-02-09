@@ -6,7 +6,7 @@
     "url": "https://github.com/danleyb2/web-component.git"
   },
   "version": "0.0.1",
-  "main": "web-component.js",
+  "main": "dist/es6-unbundled/index.js",
   "scripts": {
     "start": "polymer serve",
     "test": "polymer test --npm"
