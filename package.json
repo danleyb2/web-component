@@ -12,12 +12,19 @@
     "test": "polymer test --npm"
   },
   "dependencies": {
+    "@webcomponents/webcomponentsjs": "2.4.0",
     "lit-element": "2.2.1",
-    "@webcomponents/webcomponentsjs": "2.4.0"
+    "polymer-build": "^3.1.4"
   },
   "devDependencies": {
+    "del": "^5.1.0",
     "wct-browser-legacy": "^1.0.1",
     "polymer-cli": "latest",
-    "@polymer/test-fixture": "^4.0.1"
+    "@polymer/test-fixture": "^4.0.1",
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-replace": "^1.0.0",
+    "merge-stream": "^2.0.0"
   }
 }
