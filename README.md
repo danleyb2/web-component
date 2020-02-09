@@ -2,6 +2,8 @@
 
 Web Component Starter
 
+![Node.js Package](https://github.com/danleyb2/web-component/workflows/Node.js%20Package/badge.svg)
+
 A starter project for bulding re-usable web components using lit-element 
 
 ## Features
