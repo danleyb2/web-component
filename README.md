@@ -11,3 +11,19 @@ A starter project for building re-usable web components using lit-element
 - Follows Web Components standards, works with any framework
 - Building with bundling and transpilation using polymer build 
 - Testing with Web-Component-Tester
+
+
+## Usage
+
+1. load module
+    ```html
+    <!-- Bottom of body -->
+    <script type="module" src="https://unpkg.com/@danleyb2/web-component"></script>
+    ```
+2. use component
+    ```html
+    
+    <web-component></web-component>
+    
+    ```
+
