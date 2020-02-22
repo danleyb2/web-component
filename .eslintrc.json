@@ -1,0 +1,51 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "parserOptions": {
+	"ecmaVersion": 2018,
+	"sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "plugins": [
+    "html"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "bower_components"]
+      }
+    }
+  },
+  "rules": {
+    "max-len": ["error",
+      {
+        "code": 120,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true
+      }
+	],
+    "indent": ["error", 2],
+    "no-console":"off",
+    "no-tabs": 1,
+    "brace-style": "off",
+    "new-cap": ["error", { "capIsNewExceptions": ["Polymer", "Base", "FirestoreMixin", "LazyFetchMixin", "LoadingMixin", "LazyFetchAjaxMixin", "LazyFetchDocMixin", "AccountMembershipMixin"] }],
+    "no-var": "off",
+    "require-jsdoc": "off",
+    "arrow-parens": "off"
+  },
+  "globals": {
+    "Polymer": true,
+    "App": true,
+    "Podkite": true,
+    "suite": true,
+    "test": true,
+    "fixture": true,
+    "assert": true,
+    "WCT": true,
+    "Raven": true,
+    "Logger": true,
+		"$crisp": true
+	}
+}
