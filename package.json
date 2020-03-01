@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/danleyb2/web-component.git"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "dist/es6-unbundled/index.js",
   "scripts": {
     "start": "polymer serve",
