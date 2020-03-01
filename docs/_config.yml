@@ -22,8 +22,8 @@ title: Web Component
 email: danleyb2@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tooling for creating modern standalone web components using vanilla javascript.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/web-component" # the subpath of your site, e.g. /blog
+url: "https://oss.danleyb2.online" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: danleyb2
 github_username:  danleyb2
 
