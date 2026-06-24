@@ -1,5 +1,7 @@
 # web-component
 
+> Archived in favor of [LitElement TypeScript starter](https://github.com/lit/lit-element-starter-ts)
+
 Web Component Starter
 
 ![Node.js Package](https://github.com/danleyb2/web-component/workflows/Node.js%20Package/badge.svg)
